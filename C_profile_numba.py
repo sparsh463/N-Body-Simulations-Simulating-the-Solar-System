@@ -1,4 +1,4 @@
-## Do runs with accel_numba and accel_python
+## Do runs with accel_numba
 
 import cProfile
 import pstats
@@ -141,7 +141,8 @@ if __name__ == '__main__':
     main()  # Call the main function of your script
 
     profiler.disable()
-    profiler.dump_stats('output.pstats')  # Save stats to a file
+    profiler.dump_stats('output_numba.pstats')  # Save stats to a file
 
 p = pstats.Stats('output_numba.pstats')
 p.strip_dirs().sort_stats(-1).print_stats()
+p.sort_stats(SortKey.CUMULATIVE).print_stats(30)
