@@ -5,9 +5,9 @@ A Repository to house all the Project Files for PIC 16B
 ## I: Project Overview
 For this project, we created and optimized a simulation and accompanying visualization of gravitational dynamics in Earth’s solar system. Beginning with a script for computing the changing acceleration of bodies governed by the Newtonian laws of gravitation: 
 
-$$
+$
 \vec{F}_{21} = -G \frac{m_1 m_2}{|\vec{r}_{21}|^2} \hat{r}_{21}
-$$
+$
 
 where
 
