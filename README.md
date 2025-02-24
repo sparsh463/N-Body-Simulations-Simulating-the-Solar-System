@@ -1,5 +1,7 @@
-# PIC16B_Project
-A Repository to house all the Project Files for PIC 16B
+# N-Body Gravitational Simulation with High-Performance Computing
+
+
+
 
 
 ## I: Project Overview
